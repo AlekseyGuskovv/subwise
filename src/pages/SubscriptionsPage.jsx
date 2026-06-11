@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Header } from "../components/layout/Header";
 import { subscriptions } from "../data/subscriptions";
 import { SubscriptionsSummary } from "../components/subscriptions/SubscriptionsSummary";
@@ -20,6 +21,10 @@ export function SubscriptionsPage() {
               <h3>Все подписки</h3>
               <p>Полный список ваших регулярных платежей.</p>
             </div>
+
+            <Link className="primaryButton" to="/subscriptions/new">
+              + Добавить подписку
+            </Link>
           </div>
 
           <SubscriptionTable subscriptions={subscriptions} />
