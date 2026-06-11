@@ -1,0 +1,38 @@
+export const subscriptions = [
+  {
+    id: 1,
+    name: "Netflix Premium",
+    category: "Стриминг",
+    price: 1699,
+    currency: "RUB",
+    renewalDate: "2026-06-18",
+    status: "active",
+  },
+  {
+    id: 2,
+    name: "Spotify Premium",
+    category: "Музыка",
+    price: 299,
+    currency: "RUB",
+    renewalDate: "2026-06-21",
+    status: "active",
+  },
+  {
+    id: 3,
+    name: "Figma Professional",
+    category: "Дизайн",
+    price: 1500,
+    currency: "RUB",
+    renewalDate: "2026-06-24",
+    status: "active",
+  },
+  {
+    id: 4,
+    name: "ChatGPT Plus",
+    category: "ИИ-инструменты",
+    price: 1990,
+    currency: "RUB",
+    renewalDate: "2026-06-29",
+    status: "active",
+  },
+];
